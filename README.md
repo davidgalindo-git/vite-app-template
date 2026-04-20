@@ -1,5 +1,33 @@
-# Vue 3 + Vite
+# TPI
+Développé avec [Vue 3](https://vuejs.org/) et [Vite](https://vitejs.dev/).
+## Démarrage de l'app
+1. Avoir installé [Node.js](https://nodejs.org/fr)
+2. Cloner localement le repository git
+```bash
+git clone [https://github.com/davidgalindo-git/TPI_David_Galindo_2026](https://github.com/davidgalindo-git/eSample.git)
+```
+3. Installer les dépendances
+```bash
+npm install
+```
+4. Créer un fichier ".env" au même niveau que "package.json" basé sur le fichier ".env.example" et remplacer les données secrètes.  
+Création du fichier
+```bash
+touch .env
+```
+5. Lancer le projet
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Dev (développement)
+```bash
+npm run dev
+```
+Build (production)
+```bash
+npm run build
+```
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## Tests
+Exécuter les tests du dossier src/tests avec Vitest UI
+```bash
+npx vitest --ui
+```
